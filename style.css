@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400";
 body {
-	background-color: #f2f2f2;
+	background-color: black;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	/*background-color: #f7f9fa;*/
@@ -10,7 +10,7 @@ body {
 	padding-bottom: 0px;
 	width: 100vw;
 	height: 100vh;
-	background-color: white;
+	background-color: black;
 }
 .name {
 	border: 2px solid #f2f2f2;
@@ -57,7 +57,7 @@ body {
 }
 .chat-body {
 	padding-top: 10px;
-	background-image: url("../img/bg.png");
+	background-image: url("bg.png");
 	background-size: cover;
 	top: 78px;
 	position: relative;
@@ -78,9 +78,9 @@ body {
 	margin-bottom: 10px;
 	width: 60%;
 	word-wrap: break-word;
-	background-color: lightgreen;
-	box-shadow: 5px 5px 5px 0px #C0C0C0;
-	display: none;									/*To add fadeIn effect*/
+	background-color: white;
+	
+	display: none;									/*To add fadeIn effect: box-shadow: 5px 5px 5px 0px #C0C0C0;*/
 }
 .reply {
 	padding: 10px 10px 10px 10px;
@@ -95,9 +95,9 @@ body {
 	margin-bottom: 10px;
 	width: 60%;
 	word-wrap: break-word;
-	background-color: lightblue;
-	box-shadow: 5px 5px 5px 0px #C0C0C0;
-	display: none;									/*To add fadeIn effect*/
+	background-color: white;
+	
+	display: none;									/*To add fadeIn effect: box-shadow: 5px 5px 5px 0px #C0C0C0;*/
 }
 .load {
 	padding: 10px 10px 10px 10px;
@@ -112,9 +112,9 @@ body {
 	margin-bottom: 10px;
 	width: 150px;
 	word-wrap: break-word;
-	background-color: lightblue;
-	box-shadow: 5px 5px 5px 0px #C0C0C0;
-	display: none;									/*To add fadeIn effect*/
+	background-color: white;
+	
+	display: none;									/*To add fadeIn effect: box-shadow: 5px 5px 5px 0px #C0C0C0;*/
 }
 .loader {
 	cursor: wait;
@@ -133,7 +133,7 @@ body {
 		/*border: black solid 3px;*/
 	}
 	.chat-body {
-		background-image: url("../img/bg.png");
+		background-image: url("bg.png");
 		background-size: cover;
 		top: 78px;
 		position: relative;

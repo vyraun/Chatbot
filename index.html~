@@ -17,8 +17,8 @@
 
 	<div class="outer-box">
 		<div class="name">
-			<img src="ico.gif" class="chatbot-logo img-circle">
-			<b>The Sci-Fi Bot
+			<img src="ico.gif" class="chatbot-logo img-circle" size="30px">
+			<b>The Sci-Fi Bot</b>
 		</div>
 
 		<div class="chat-body"></div>
